@@ -1,0 +1,10 @@
+@use '/src/common/styles/templates' as *;
+
+.loader-list {
+}
+.light {
+  @extend %light;
+}
+.dark {
+  @extend %dark;
+}

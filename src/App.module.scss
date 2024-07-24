@@ -1,0 +1,15 @@
+@use '/src/common/styles/templates' as *;
+
+* {
+  box-sizing: border-box;
+}
+.light {
+  @extend %light;
+}
+.dark {
+  @extend %dark;
+}
+.body-like-size {
+  width: 100vw;
+  height: 100vh;
+}

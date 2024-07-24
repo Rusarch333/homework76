@@ -1,0 +1,31 @@
+@use '/src/common/styles/templates' as *;
+
+.light{
+  @extend %light;
+}
+.dark{
+  @extend %dark;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  nav > ul {
+    list-style: none;
+    padding: 0;
+    li {
+      display: inline-block;
+      margin-right: 10px;
+      background-color: aquamarine;
+      a {
+        display: inline-block;
+        padding: 10px;
+      }
+    }
+  }
+  img {
+    height: 50px;
+    object-fit: cover;
+  }
+}
